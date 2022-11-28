@@ -1,0 +1,135 @@
+body {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+header {
+  padding-bottom: 3%;
+}
+
+.navbar-brand {
+  padding-left: 1%;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+#Mstrong {
+  padding-top: 3%;
+}
+/* this css is for the practice page*/
+#map-pic {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+#practice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.practice-head {
+  text-align: center;
+}
+#practice h3 {
+  color: rgb(83, 37, 161);
+  font-weight: 700;
+  text-align: center;
+}
+#practice p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.red {
+  color: rgb(155, 45, 45);
+}
+.blue {
+  color: rgb(37, 82, 161);
+}
+
+#team-photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#schedule-pic {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#exec-pics {
+  padding-left: 5%;
+}
+
+#support-left-box {
+  padding-right: 2.5%;
+}
+
+#support-right-box {
+  padding-left: 2.5%;
+}
+
+#schedule-pics img {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+#support-pic {
+  height: 250px;
+  width: auto;
+  margin-left: 0;
+  object-fit: scale-down;
+}
+
+#support-pic-band {
+  height: auto;
+  width: 250px;
+  margin-left: 0;
+  object-fit: scale-down;
+}
+
+/* fixing page for mobile */
+@media (max-width: 990px) {
+  /* home page */
+  #home-photo {
+    width: 500px;
+  }
+  /* practice page */
+  #map {
+    width: 450px;
+    height: auto;
+  }
+  /* exec page */
+  #exec-pics {
+    padding-left: 150px;
+  }
+  /* schedule page */
+  #schedule-pics {
+    flex-direction: column;
+  }
+  #schedule-pic {
+    padding-left: 5%;
+  }
+  #score {
+    width: 115px;
+  }
+  #date {
+    width: 60px;
+  }
+}
